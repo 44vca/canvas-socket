@@ -1,0 +1,12 @@
+@import '../../config/styles.scss';
+
+.settingBar {
+  width: 100%;
+  height: $toolbar-height;
+  box-shadow: 0px 4px 5px gray;
+  background-color: $white;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: $toolbar-height;
+}
